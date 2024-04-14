@@ -1,0 +1,118 @@
+#wakeUpTimeSelector, #lunchTimeSelector, #sleepTimeSelector {
+    padding: 10px 0px;
+    font-weight: bold;
+}
+#body {
+    font-family: 'Brush Script MT', cursive;
+    background-color: #68d84e;
+}
+div.wakeUpTime, div.lunchTime, div.sleepTime {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#eventImage {
+    width: 600px;
+    height: 600px;
+    margin: 0px ;
+}
+#eventMessage {
+    margin: -80px 0 100px 0;
+    color: white;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+#page {
+    width: 80%;
+    max-width: 960px;
+    margin: 50px auto;
+    text-align: center;
+    background-color: #68d84e;
+    border-radius: 5px;
+}
+header {
+    font-size: 40px;
+    font-family: 'Brush Script MT', cursive;
+    text-transform: uppercase;
+}
+h4 {
+    font-size: 30px;
+    font-family: 'Brush Script MT', cursive;
+    text-transform: capitalize;
+}
+h4 #clock {
+    font-size: 36px;
+    display: block;
+    padding: 5px 0px;
+}
+#logOut {
+    position: absolute;
+    top: 8px;
+    right: 16px;  
+    border-radius: 25px;
+    padding: 20px; 
+    width: 200px;
+    height: 80px;  
+    font-family: 'Brush Script MT', cursive;
+    font-weight: bold;
+    font-size: 20px;
+}
+blockquote:before { content: '"';}
+blockquote:after { content: '"';}
+
+* {box-sizing: border-box;}
+.open-button {
+    background-color: lightcoral;
+    color: red;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    font-size: 70px;
+  }
+.form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+}
+.form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+  }
+.form-container input[type=text], .form-container input[type=time] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+.form-container input[type=text]:focus, .form-container input[type=time]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+.form-container .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+}
+.form-container .cancel {
+    background-color: red;
+}
+.form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+}
